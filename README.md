@@ -1,2 +1,3 @@
 # googleScraper
-This is a google scraper specifically made to find companies that do not have websites on google maps yet.
+This is a Google scraper specifically made to find companies that do not have websites on google maps yet.
+This implements google maps API to ensure accurate and up-to-date information, which of course comes with large data restrictions and you must follow the Google set requirements. This code is meant to efficiently parse through an area (location + radius) specified parameters. The easiest example is that if one specifies an area such as their house with a radius of 10 miles and a parameter of 'restaurants', this code will parse through google maps and find any restaurants within a 10-mile radius that does not yet have a website on google maps and convert that list (and other interesting data) into a data frame which is then uploaded to your google drive as a CSV.
